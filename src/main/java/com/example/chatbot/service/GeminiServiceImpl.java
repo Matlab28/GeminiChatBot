@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class GeminiServiceImpl implements GeminiService {
     private final GeminiApiClient client;
-    private final String key = "AIzaSyDh7JeIjfGp1MSe1NMCV_0s0l5dvaIJtig";
+    private final String key = "YOUR_API_KEY";
     private Root latestResponse;
 
     @Autowired
