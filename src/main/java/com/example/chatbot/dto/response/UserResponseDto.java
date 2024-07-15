@@ -8,4 +8,7 @@ import lombok.Setter;
 public class UserResponseDto {
     private Long id;
     private String message;
+
+    public UserResponseDto(String s) {
+    }
 }

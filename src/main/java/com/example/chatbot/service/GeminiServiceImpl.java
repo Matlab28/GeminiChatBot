@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class GeminiServiceImpl implements GeminiService {
-
     private final GeminiApiClient client;
     private final String key = "AIzaSyDh7JeIjfGp1MSe1NMCV_0s0l5dvaIJtig";
     private Root latestResponse;

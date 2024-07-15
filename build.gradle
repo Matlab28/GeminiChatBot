@@ -40,15 +40,11 @@ dependencies {
 //    runtimeOnly 'org.postgresql:postgresql'
 
     implementation group: 'com.h2database', name: 'h2', version: '2.1.214'
-
     implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '3.2.4'
-
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-mail', version: '3.2.3'
-
     testImplementation group: 'junit', name: 'junit', version: '4.5'
     implementation 'junit:junit:4.12'
     testImplementation('org.springframework.boot:spring-boot-starter-test')
-
     implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '4.1.0'
 
     // Other dependencies

@@ -7,4 +7,8 @@ import lombok.Setter;
 @Getter
 public class UserRequestDto {
     private String message;
+
+//    public UserRequestDto(String message) {
+//        this.message = message;
+//    }
 }
